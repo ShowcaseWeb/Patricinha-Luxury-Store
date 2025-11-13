@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Patricinha Luxury - Coleção Verão 2025: luxo dourado, linha italiana, dustbag e caixa da grife." />
+  <meta name="keywords" content="luxo dourado, bolsas LV, joias Tiffany, linha italiana, dustbag, caixa original" />
+  <meta name="author" content="Patricinha Luxury" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Patricinha Luxury - Coleção Verão 2025" />
+  <meta property="og:description" content="Luxo dourado. Linha italiana. Entrega 24h-72h. Até 12x sem juros." />
+  <meta property="og:image" content="./imagens/colecao-verao-2025.jpg" />
+  <meta property="og:url" content="https://patricinhaluxury.com" />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="./imagens/favicon.png" type="image/png" />
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Patricinha Luxury - Coleção Verão 2025</title>
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "Patricinha Luxury",
+    "image": "./imagens/logo.png",
+    "telephone": "+5561981754409",
+    "email": "contato@patricinhaluxury.com",
+    "url": "https://patricinhaluxury.com",
+    "address": { "@type": "PostalAddress", "addressCountry": "BR" },
+    "openingHours": "Mo-Fr 09:00-18:00, Sa 09:00-13:00",
+    "priceRange": "R$600 - R$8500"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Loading -->
+  <div id="loading" class="loading" aria-hidden="true">
+    <div class="loading-content">
+      <div class="logo-loading">
+        <img src="/img/logo/WhatsApp Image 2025-11-12 at 09.55.20 (1).jpeg" alt="Patricinha Luxury" class="logo-img" width="100" height="100">
+        <h1>PATRICINHA</h1>
+        <p>LUXURY GOODS STORE</p>
+      </div>
+      <div class="loading-spinner"></div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container container">
+      <div class="logo">
+        <img src="/img/logo/WhatsApp Image 2025-11-12 at 09.55.20 (1).jpeg" alt="Patricinha Luxury" class="logo-img" width="50" height="50">
+        <div class="logo-text">
+          <span class="logo-main">PATRICINHA</span>
+          <span class="logo-sub">LUXURY GOODS STORE</span>
+        </div>
+      </div>
+      <nav id="nav" aria-label="Navegação principal">
+        <ul>
+          <li data-target="inicio" tabindex="0">Início</li>
+          <li data-target="produtos" tabindex="0">Produtos</li>
+          <li data-target="quem-somos" tabindex="0">Quem Somos</li>
+          <li data-target="contato" tabindex="0">Contato</li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- WhatsApp Modal -->
+  <div id="whatsapp-modal" class="modal" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <span class="close" aria-label="Fechar">×</span>
+      <h2>Fale no WhatsApp</h2>
+      <p>Escaneie ou clique para iniciar:</p>
+      <div class="qr-code">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/5561981754409?text=Olá! Gostaria de mais informações." alt="QR Code">
+      </div>
+      <a href="https://wa.me/5561981754409?text=Olá! Gostaria de mais informações." class="whatsapp-link" target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i> Iniciar Conversa
+      </a>
+    </div>
+  </div>
+
+  <!-- Image Modal -->
+  <div id="image-modal" class="modal image-modal" role="dialog" aria-hidden="true">
+    <div class="modal-content image-modal-content">
+      <span class="close" aria-label="Fechar">×</span>
+      <img id="modal-image" src="" alt="" loading="lazy">
+      <div class="galeria-controles"></div>
+    </div>
+  </div>
+
+  <!-- INÍCIO - OURO PURO -->
+  <section id="inicio" class="active">
+    <div class="hero-gold">
+      <div class="hero-bg"></div>
+      <div class="gold-particles"></div>
+
+      <div class="container hero-content">
+        <div class="hero-text animate__animated animate__fadeInDown">
+          <h1 class="hero-title">
+            <span class="gold-gradient">COLEÇÃO</span><br>
+            <span class="gold-text">VERÃO 2025</span>
+          </h1>
+          <p class="hero-subtitle animate__animated animate__fadeInUp">
+            Luxo dourado. Linha italiana com dustbag e caixa da grife. Qualidade eterna.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-gold pulse" onclick="showSection('produtos')">
+              <i class="fas fa-crown"></i> Ver Coleção
+            </button>
+            <button class="btn btn-outline" onclick="showSection('contato')">
+              Consultoria VIP
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-image animate__animated animate__zoomIn">
+          <div class="image-gold">
+            <img src="/img/logo/WhatsApp Image 2025-11-12 at 09.55.20 (1).jpeg" alt="Coleção Verão 2025" loading="lazy">
+            <div class="gold-glow"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="destaques-gold">
+        <div class="destaque-item" data-aos="fade-up">
+          <i class="fas fa-medal"></i>
+          <h3>Luxo Dourado</h3>
+          <p>A Essência do Luxo. O Brilho que Inspira.</p>
+        </div>
+        <div class="destaque-item" data-aos="fade-up" data-aos-delay="100">
+          <i class="fas fa-gem"></i>
+          <h3>Linha Italiana</h3>
+          <p>Acabamento impecável</p>
+        </div>
+        <div class="destaque-item" data-aos="fade-up" data-aos-delay="200">
+          <i class="fas fa-gift"></i>
+          <h3>Embalagem Premium</h3>
+          <p>Dustbag + caixa da grife</p>
+        </div>
+        <div class="destaque-item" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-shipping-fast"></i>
+          <h3>Entrega VIP</h3>
+          <p>24h a 72h em todo Brasil</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section id="produtos">
+    <div class="container">
+      <div class="produtos-header">
+        <h2>Nossos <span class="gold-text">Produtos</span></h2>
+        <p>Exclusividade em cada detalhe</p>
+      </div>
+      <div class="filtros">
+        <button class="filtro-btn active" data-filter="todos">Todos</button>
+        <button class="filtro-btn" data-filter="bolsas">Bolsas</button>
+        <button class="filtro-btn" data-filter="joias">Joias</button>
+        <button class="filtro-btn" data-filter="acessorios">Acessórios</button>
+        <button class="filtro-btn" data-filter="tenis">Tênis</button>
+      </div>
+      <div class="produtos-grid" id="produtos-grid"></div>
+    </div>
+  </section>
+
+  <!-- QUEM SOMOS -->
+  <section id="quem-somos">
+    <div class="container">
+      <div class="quem-somos-container">
+        <div class="quem-somos-img">
+          <img src="/img/Paty/WhatsApp Image 2025-11-12 at 12.38.42.jpeg" alt="Patrícia Prampolim" loading="lazy">
+        </div>
+        <div class="quem-somos-content">
+          <h2>Quem <span class="gold-text">Somos</span></h2>
+          <p>Sou a <strong>Patrícia Prampolim</strong>, especialista em artigos de luxo há 4 anos. A <strong>Patricinha</strong> nasceu do desejo de trazer o verdadeiro luxo dourado com qualidade impecável.</p>
+          <div class="destaque">
+            <i class="fas fa-crown"></i>
+            <span>Compromisso com a excelência</span>
+          </div>
+          <p>Unimos bom gosto, perfeição e os melhores fornecedores em conceito <strong>linha italiana</strong> com atendimento VIP.</p>
+          <div class="valores">
+            <div class="valor-item">
+              <i class="fas fa-gem"></i>
+              <h3>Qualidade</h3>
+              <p>Materiais premium</p>
+            </div>
+            <div class="valor-item">
+              <i class="fas fa-medal"></i>
+              <h3>Exclusividade</h3>
+              <p>Peças únicas</p>
+            </div>
+            <div class="valor-item">
+              <i class="fas fa-heart"></i>
+              <h3>Paixão</h3>
+              <p>Amor em cada detalhe</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="container">
+      <div class="contato-container">
+        <div class="contato-info">
+          <h2>Fale <span class="gold-text">Conosco</span></h2>
+          <p>Atendimento VIP e personalizado.</p>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div><h3>Telefone</h3><p>(61) 9 8175-4409</p></div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div><h3>E-mail</h3><p>contato@patricinhaluxury.com</p></div>
+          </div>
+          <div class="info-item">
+            <i class="fab fa-whatsapp"></i>
+            <div><h3>WhatsApp</h3><p><a href="#" id="open-whatsapp" class="whatsapp-link">Fale agora</a></p></div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-truck"></i>
+            <div><h3>Entregas</h3><p>Todo Brasil - 24h a 72h úteis</p></div>
+          </div>
+        </div>
+        <div class="contato-form">
+          <h3>Formas de Pagamento</h3>
+          <div class="pagamento-info">
+            <div class="pagamento-item"><i class="fas fa-credit-card"></i> <span>Até 3x sem juros</span></div>
+            <div class="pagamento-item"><i class="fas fa-credit-card"></i> <span>Até 12x com taxas</span></div>
+            <div class="pagamento-item"><i class="fas fa-qrcode"></i> <span>PIX com 10% OFF</span></div>
+          </div>
+          <div class="garantia-info">
+            <h4>Nossas Vantagens</h4>
+            <ul>
+              <li><i class="fas fa-check"></i> Dustbag e caixa da grife</li>
+              <li><i class="fas fa-check"></i> Qualidade linha italiana</li>
+              <li><i class="fas fa-check"></i> Atendimento VIP</li>
+              <li><i class="fas fa-check"></i> Encomendas personalizadas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-col">
+          <div class="logo-footer">
+            <div class="logo-text">
+              <span class="logo-main">PATRICINHA</span>
+              <span class="logo-sub">LUXURY GOODS STORE</span>
+            </div>
+          </div>
+          <p>Luxo dourado. Qualidade eterna.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Links</h3>
+          <ul class="footer-links">
+            <li><a href="#inicio" onclick="showSection('inicio')">Início</a></li>
+            <li><a href="#produtos" onclick="showSection('produtos')">Produtos</a></li>
+            <li><a href="#quem-somos" onclick="showSection('quem-somos')">Quem Somos</a></li>
+            <li><a href="#contato" onclick="showSection('contato')">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contato</h3>
+          <p>contato@patricinhaluxury.com</p>
+          <p>(61) 9 8175-4409</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Horário</h3>
+          <p>Seg-Sex: 9h às 18h</p>
+          <p>Sábado: 9h às 13h</p>
+          <p>Domingo: Fechado</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Patricinha Luxury. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botões Flutuantes -->
+  <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <div class="toast" id="toast" role="alert"></div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
