@@ -11,7 +11,7 @@
 
   let currentProductId = null;
   let imageCache = new Map();
-
+  
   // =============================================
   // UTILITÁRIOS
   // =============================================
@@ -261,8 +261,8 @@
       preco: 7000,
       precoFormatado: "R$ 7.000,00",
       imagens: [
-        "./img/acessórios/malas 1.png", 
-        "./img/acessórios/malas 2.png"
+        "./img/img/malas 1.png", 
+        "./img/img/malas 2.png"
       ],
       dimensoes: "Mala de rodinha",
       disponivel: true
@@ -1012,5 +1012,6 @@
     mostrarToast,
     comprarWhatsApp
   };
+
 
 })();
